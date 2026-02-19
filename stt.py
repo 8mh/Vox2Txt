@@ -3,6 +3,7 @@ Vox2Txt: Azure Speech-to-Text #vox2txt
 Free tier mic/file transcription.
 Post results to r/Vox2text!
 """
+
 import azure.cognitiveservices.speech as speechsdk
 import sys
 import os
