@@ -30,7 +30,7 @@ def recognize_mic():
 
     def on_recognized(evt):
         text = evt.result.text.strip()
-        if text: print(text)  # <-- EMOJI REMOVED HERE
+        if text: print(text)
 
     def on_canceled(evt):
         if evt.reason == speechsdk.CancellationReason.Error:
@@ -40,7 +40,7 @@ def recognize_mic():
     recognizer.canceled.connect(on_canceled)
     recognizer.start_continuous_recognition()
     
-    try: input("\nPress Enter to stop...")
+    try: input("\nPress Enter to stop...\n")  # <-- Extra newline here
     finally: recognizer.stop_continuous_recognition()
 
 def recognize_file(file_path):
