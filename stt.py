@@ -9,7 +9,7 @@ import os
 
 # #vox2txt Config
 SPEECH_KEY = os.getenv("VOX2TXT_KEY")     # Azure Key 1
-SPEECH_REGION = "northeurope"  # e.g., "eastus"
+SPEECH_REGION = os.getenv("VOX2TXT_KEY")   # e.g., "eastus"
 
 print("🚀 Vox2Txt #vox2txt – Join r/Vox2text for feedback!")
 
