@@ -5,6 +5,7 @@ Post results to r/Vox2text!
 """
 import azure.cognitiveservices.speech as speechsdk
 import sys
+import os
 
 # #vox2txt Config
 SPEECH_KEY = os.getenv("VOX2TXT_KEY")     # Azure Key 1
