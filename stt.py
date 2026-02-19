@@ -7,8 +7,8 @@ import azure.cognitiveservices.speech as speechsdk
 import sys
 
 # #vox2txt Config
-SPEECH_KEY = "YOUR_KEY"      # Azure Key 1
-SPEECH_REGION = "YOUR_REGION"  # e.g., "eastus"
+SPEECH_KEY = "AdWVAHPRSlRmYNIgTrr6OxbAm7BZWB34G3CIxvCEIkTsV7SgyQUhJQQJ99CBACi5YpzXJ3w3AAAYACOGpdzY"      # Azure Key 1
+SPEECH_REGION = "northeurope"  # e.g., "eastus"
 
 print("🚀 Vox2Txt #vox2txt – Join r/Vox2text for feedback!")
 
